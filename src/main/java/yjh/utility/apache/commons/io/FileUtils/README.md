@@ -32,3 +32,8 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
 <b> <a href="ForceMkdir"> 6. forceMkdir() </a> </b>
  - 필요하지만 존재하지 않는 부모 디렉토리까지 포함하여 생성. 
 <br>
+
+<b> <a href="Write"> 7. write() </a> </b>
+ - CharSequence를 file에 write 함.
+ - file이 없을 경우 새로 생성
+<br>
