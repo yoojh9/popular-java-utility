@@ -37,3 +37,9 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - CharSequence를 file에 write 함.
  - file이 없을 경우 새로 생성
 <br>
+
+<b> <a href="ListFiles.java"> 8. listFiles(File directory, String[] extension, boolean recursive) </a> </b>
+ - 주어진 디렉토리 내에 확장자 array에 매칭되는 files를 리턴
+ - extension: {"java", "xml"}, null일 경우 모든 file 리턴
+ - recursive : 하위 디렉토리까지 search 하고 싶을 경우 true
+<br>
