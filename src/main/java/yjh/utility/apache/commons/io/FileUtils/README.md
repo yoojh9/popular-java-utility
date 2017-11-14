@@ -47,3 +47,10 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
 <b> <a href="CopyDirectory.java"> 9. copyDirectory() </a> </b>
  - 전체 디렉토리 복사
 <br>
+
+<b> 10. forceDelete() </a> </b>
+ - 파일 삭제. 만약 디렉토리라면 해당 디렉토리 삭제 후 모든 하위 디렉토리도 삭제
+ - File.delete() 와의 차이점
+ 	- empty가 아닌 디렉토리도 삭제 가능
+ 	- 파일이나 디렉토리를 삭제할 수 없는 경우 예외가 발생 (java.io.File은 boolean을 리턴)
+<br>
