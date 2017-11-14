@@ -24,3 +24,6 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
 5. <a href="Write.java"> write(data, output) </a>
  - data를 output에 쓸 수 있음
  
+
+6. <a href="ToInputStream.java"> toInputStream() </a>
+ - 특정 CharSequence를 InputStream으로 변환.

@@ -1,5 +1,7 @@
 # popular-java-utility
 유용한 자바 utility class에 대한 설명
+개인적인 소장용으로 작성한 것이기 때문에 정확하지 않을 수 있음.
+
 
 1. <a href="/src/main/java/yjh/utility/apache/commons/io/IOUtils/"> org.apache.commons.io.IOUtils </a>
  - 일반적인 IO 스트림 조작 유틸리티
