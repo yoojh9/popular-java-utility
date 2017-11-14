@@ -9,7 +9,7 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  
 <br>
 
-<b> 2. <a href="ReadFileToString.java"> readFileToString() </a> </b>
+<b><a href="ReadFileToString.java"> 2.  readFileToString() </a> </b>
  - file의 내용을 읽어 String으로 얻음. file은 항상 close 됨.
 <br>
 
@@ -42,4 +42,8 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - 주어진 디렉토리 내에 확장자 array에 매칭되는 files를 리턴
  - extension: {"java", "xml"}, null일 경우 모든 file 리턴
  - recursive : 하위 디렉토리까지 search 하고 싶을 경우 true
+<br>
+
+<b> <a href="CopyDirectory.java"> 9. copyDirectory() </a> </b>
+ - 전체 디렉토리 복사
 <br>
