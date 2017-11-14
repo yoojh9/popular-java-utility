@@ -11,6 +11,6 @@
  - 파일 조작 유틸리티
 <br>
 
-<b> 2. <a href="/src/main/java/yjh/utility/apache/commons/lang/StringUtils/"> org.apache.commons.lang3.StringUtils </a> </b>
- - 파일 조작 유틸리티
+<b> 3. <a href="/src/main/java/yjh/utility/apache/commons/lang/StringUtils/"> org.apache.commons.lang3.StringUtils </a> </b>
+ - String null 처리에 용이
 <br>	
