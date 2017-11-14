@@ -17,18 +17,23 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - 큰 스트림일 경우에는 copyLarge()를 사용하기를 권고.
 <br>
 
-<b> 4. <a href="ToByteArray.java"> toByteArray() </a> </b>
+<b> 4. copyLarge() </b>
+ - InputStream으로부터 OutputStream에 바이트를 복사한다.
+ - 2GB가 넘을경우 사용
+<br>
+
+<b> 5. <a href="ToByteArray.java"> toByteArray() </a> </b>
  - Stream의 contents를 byte[]로 얻음.
 <br>
 
-<b> 5. <a href="Write.java"> write(data, output) </a> </b>
+<b> 6. <a href="Write.java"> write(data, output) </a> </b>
  - data를 output에 쓸 수 있음
 <br>
 
-<b> 6. <a href="ToInputStream.java"> toInputStream() </a> </b>
+<b> 7. <a href="ToInputStream.java"> toInputStream() </a> </b>
  - 특정 CharSequence를 InputStream으로 변환.
 <br>
 
-<b> 7. <a href="ReadLines.java"> readLines() </a> </b>
+<b> 8. <a href="ReadLines.java"> readLines() </a> </b>
  - InputStream을 한 줄 단위로 String List 형식으로 읽어옴.
 <br>
