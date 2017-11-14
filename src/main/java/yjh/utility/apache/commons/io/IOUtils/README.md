@@ -27,3 +27,7 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
 
 6. <a href="ToInputStream.java"> toInputStream() </a>
  - 특정 CharSequence를 InputStream으로 변환.
+ 
+
+7. <a href="ReadLines.java"> readLines() </a>
+ - InputStream을 한 줄 단위로 List<String> 형식으로 읽어옴.
