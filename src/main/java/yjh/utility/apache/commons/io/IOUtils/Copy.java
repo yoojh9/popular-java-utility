@@ -12,8 +12,8 @@ public class Copy {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream in = new FileInputStream("foo.txt");
-			FileOutputStream out = new FileOutputStream("foo-copy.txt");
+			FileInputStream in = new FileInputStream("files/foo.txt");
+			FileOutputStream out = new FileOutputStream("files/foo-copy.txt");
 			
 			IOUtils.copy(in, out);
 			

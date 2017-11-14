@@ -20,7 +20,6 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  	- 파일이나 디렉토리 삭제 시 exception throw 시키지 않음
 <br>
 
-
-<b> <a href="CopyFile"> 3. copyFile() </a> </b>
+<b> <a href="CopyFile"> 4. copyFile() </a> </b>
  - file date를 보존한 채 새로운 위치에 file을 copy
 <br>

@@ -9,10 +9,10 @@ public class CopyFile {
 
 	public static void main(String[] args) {
 		
-		File srcFile = new File("foo.txt");
+		File srcFile = new File("files/foo.txt");
 		
 		try {
-			File destFile = new File("foo-dest.txt");
+			File destFile = new File("files/foo-dest.txt");
 			FileUtils.copyFile(srcFile, destFile);
 			
 		} catch (IOException e) {

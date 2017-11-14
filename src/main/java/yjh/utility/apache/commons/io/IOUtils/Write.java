@@ -12,8 +12,8 @@ public class Write {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream in = new FileInputStream("foo.txt");
-			FileOutputStream output = new FileOutputStream("foo-write.txt");
+			FileInputStream in = new FileInputStream("files/foo.txt");
+			FileOutputStream output = new FileOutputStream("files/foo-write.txt");
 			byte[] data = IOUtils.toByteArray(in);
 			
 			IOUtils.write(data, output);

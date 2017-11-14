@@ -12,7 +12,7 @@ public class ReadLines {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream in = new FileInputStream("foo-readline.txt");
+			FileInputStream in = new FileInputStream("files/foo-readline.txt");
 			List<String> text = IOUtils.readLines(in, "UTF-8");
 
 			System.out.println(text);

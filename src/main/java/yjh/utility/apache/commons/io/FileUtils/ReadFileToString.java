@@ -9,7 +9,7 @@ public class ReadFileToString {
 
 	public static void main(String[] args) {
 		
-		File file = new File("foo.txt");
+		File file = new File("files/foo.txt");
 		
 		try {
 			String str = FileUtils.readFileToString(file, "UTF-8");

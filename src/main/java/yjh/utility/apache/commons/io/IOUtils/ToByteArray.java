@@ -11,7 +11,7 @@ public class ToByteArray {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream in = new FileInputStream("foo.txt");
+			FileInputStream in = new FileInputStream("files/foo.txt");
 			byte[] byteArr = IOUtils.toByteArray(in);
 			System.out.println(byteArr.length);
 			

@@ -11,7 +11,7 @@ public class ToString {
 	public static void main(String[] args) {
 		
 		try {
-			FileReader in = new FileReader("foo.txt");
+			FileReader in = new FileReader("files/foo.txt");
 			String input = IOUtils.toString(in);
 			System.out.println(input);
 			

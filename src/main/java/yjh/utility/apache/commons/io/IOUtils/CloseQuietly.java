@@ -14,7 +14,7 @@ public class CloseQuietly {
 		Reader in = null;
 		
 		try {
-			in = new FileReader("foo.txt");
+			in = new FileReader("files/foo.txt");
 			int data = -1;
 			
 			while((data = in.read()) != -1){
