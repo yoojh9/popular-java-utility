@@ -47,3 +47,16 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  -  wildcardMatch("c.txt", "*.jpg")      --> false
  -  wildcardMatch("a/b/c.txt", "a/b/*")  --> true
 <br>
+
+<b> <a href="SeparatorsToUnix.java"> 8. separatorsToUnix() </a> </b>
+ - 모든 구분 기호(/)를 UNIX 슬래시 구분 기호로 변경해줌
+<br>
+
+<b> <a href="GetFullPath.java"> 9. getFullPath() </a> </b>
+ - 전체 파일 이름에서 파일 경로를 가져옴
+ - 유닉스 또는 윈도우 포맷 둘다 다룰 수 있음
+ - C:\a\b\c.txt --> C:\a\b\
+ - a.txt        --> ""
+ - a/b/c        --> a/b/
+ - a/b/c/       --> a/b/c/
+<br>
