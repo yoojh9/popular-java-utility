@@ -45,6 +45,10 @@ https://commons.apache.org/proper/commons-lang/javadocs/api-3.6/org/apache/commo
 	- trimToEmpty() : trim 후 null 일 경우에는 ""을 리턴, empty("")일 경우에는 "" 리턴 
 <br>
 
-<b> <a href="Replace.java"> 10. replace(text, searchString, replacement) </a> </b>
+<b> <a href="Capitalize.java"> 10. capitalize() </a> </b>
+  - 첫번째 문자를 대문자로 변경
+<br>
+
+<b> <a href="Replace.java"> 11. replace(text, searchString, replacement) </a> </b>
   - 문자열 교체
 <br>
