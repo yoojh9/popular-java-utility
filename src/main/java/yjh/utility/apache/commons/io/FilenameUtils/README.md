@@ -33,3 +33,17 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - /foo + bar/c.txt	-> /foo/bar/c.txt
 <br>
 
+<b> 6. normalize() </b>
+ - 유효한 경로로 변경해줌
+ - /foo//		->	/foo
+ - /foo/./		->	/foo
+ - /foo/../bar	->	/bar
+ - /foo/../bar/	->	/bar/
+<br>
+
+<b> <a href="WildCardMatch.java"> 7. wildCardMatch() </a> </b>
+ - 파일 이름을 검사하여 지정된 와일드 카드와 일치하는지 체크. 대소문자를 구분한다
+ -  wildcardMatch("c.txt", "*.txt")      --> true
+ -  wildcardMatch("c.txt", "*.jpg")      --> false
+ -  wildcardMatch("a/b/c.txt", "a/b/*")  --> true
+<br>
