@@ -33,3 +33,14 @@ https://commons.apache.org/proper/commons-lang/javadocs/api-3.6/org/apache/commo
  - 텍스트를 공백이나 구분자를 기준으로 array으로 나눔
  - StringTokenizer 대신 사용 가능
 <br>
+
+<b> 8. EMPTY </a> </b>
+  - StringUtils.EMPTY : ""
+<br>
+
+<b> <a href="Trim.java"> 9. trim() </a> </b>
+  - 문자열 공백 제거
+	- trim() : trim 후 null 일 경우에는 null을 리턴, empty("")일 경우에는 "" 리턴 
+	- trimToNull() : trim 후 null 일 경우에는 null을 리턴, empty("")일 경우에는 null 리턴 
+	- trimToEmpty() : trim 후 null 일 경우에는 ""을 리턴, empty("")일 경우에는 "" 리턴 
+<br>
