@@ -60,3 +60,8 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - a/b/c        --> a/b/
  - a/b/c/       --> a/b/c/
 <br>
+
+<b> <a href="IsExtension.java"> 10. isExtension(filename, extension) </a> </b>
+ - filename의 확장자가 extension이 맞는지 확인
+ - 대소문자를 구분함
+<br>
