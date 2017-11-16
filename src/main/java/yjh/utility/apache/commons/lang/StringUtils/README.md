@@ -44,3 +44,7 @@ https://commons.apache.org/proper/commons-lang/javadocs/api-3.6/org/apache/commo
 	- trimToNull() : trim 후 null 일 경우에는 null을 리턴, empty("")일 경우에는 null 리턴 
 	- trimToEmpty() : trim 후 null 일 경우에는 ""을 리턴, empty("")일 경우에는 "" 리턴 
 <br>
+
+<b> <a href="Replace.java"> 10. replace(text, searchString, replacement) </a> </b>
+  - 문자열 교체
+<br>
