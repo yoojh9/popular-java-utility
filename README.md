@@ -13,4 +13,8 @@
 
 <b> 3. <a href="/src/main/java/yjh/utility/apache/commons/lang/StringUtils/"> org.apache.commons.lang3.StringUtils </a> </b>
  - String null 처리에 용이
-<br>	
+<br>
+
+<b> 4. <a href="/src/main/java/yjh/utility/apache/http/util/EntityUtils/"> org.apache.http.util.EntityUtils </a> </b>
+ - Http Entity 처리에 도움을 줌
+<br>
