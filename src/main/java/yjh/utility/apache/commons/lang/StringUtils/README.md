@@ -27,5 +27,9 @@ https://commons.apache.org/proper/commons-lang/javadocs/api-3.6/org/apache/commo
 
 <b> <a href="Join.java"> 6. join() </a> </b>
  - array를 구분자를 기준으로 단일 문자열로 만들어줌
- - null일 경우 ""로 처리
+<br>
+
+<b> <a href="Split.java"> 7. split() </a> </b>
+ - 텍스트를 공백이나 구분자를 기준으로 array으로 나눔
+ - StringTokenizer 대신 사용 가능
 <br>
