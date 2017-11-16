@@ -18,6 +18,7 @@ public class ToString {
 	public static void main(String[] args) throws URISyntaxException, ClientProtocolException, IOException {
 		URI uri = new URI("http://weather.naver.com/flash/naverRgnTownFcast.nhn");
 		uri = new URIBuilder(uri).addParameter("m", "jsonResult").addParameter("naverRgnCd", "02135109").build();
+		System.out.println(uri);	//  http://weather.naver.com/flash/naverRgnTownFcast.nhn?m=jsonResult&naverRgnCd=02135109
 		
 		HttpClient httpClient = HttpClientBuilder.create().build();
 		HttpResponse response = httpClient.execute(new HttpGet(uri));
@@ -25,6 +26,7 @@ public class ToString {
 		
 		String content = EntityUtils.toString(entity);
 		System.out.println(content);
+		
 	}
 
 }
