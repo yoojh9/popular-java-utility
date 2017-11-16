@@ -19,3 +19,17 @@ https://commons.apache.org/proper/commons-io/javadocs/api-2.5/org/apache/commons
  - a/b/c.txt -> txt
 <br>
 
+<b> <a href="RemoveExtension.java"> 4. removeExtension() </a> </b>
+ - 파일 이름에서 확장자를 제거하고 반환
+ - foo.txt	-> foo
+ - a/b/c.jpg -> a/b/c
+<br>
+
+<b> 5. concat() </b>
+ - 파일 이름을 기본 경로에 추가
+ - /foo/ + bar		-> /foo/bar
+ - /foo + bar		-> /foo/bar
+ - /foo + /bar		-> /foo/bar
+ - /foo + bar/c.txt	-> /foo/bar/c.txt
+<br>
+
