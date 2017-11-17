@@ -33,6 +33,14 @@
 	    <artifactId>httpclient</artifactId>
 	    <version>4.5</version>
 	</dependency>
+	
+	<!-- common codec -->
+	<dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	    <version>1.10</version>
+	</dependency>
+	
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

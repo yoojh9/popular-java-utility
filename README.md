@@ -26,3 +26,12 @@
 <b> 6. <a href="/src/main/java/yjh/utility/apache/commons/lang/ArrayUtils/"> org.apache.commons.lang3.ArrayUtils </a> </b>
  - 배열, Array에 대한 연산 조작 유틸리티
 <br>
+
+<b> 7. <a href="/src/main/java/yjh/utility/apache/http/client/utils/URLEncodedUtils/"> org.apache.http.client.utils.URLEncodedUtils </a> </b>
+ - URL 인코딩을 위한 유틸리티
+<br>
+
+<b> 8. <a href="/src/main/java/yjh/utility/apache/commons/codec/digest/DigestUtils/"> org.apache.commons.codec.digest.DigestUtils </a> </b>
+ - 메세지 다이제스트(메세지 Hash) 작업을 단순화
+ - 임의의 길이를 가진 메시지를 MD함수에 넣으면 일정한 길이를 가진 데이터를 얻는다. 이 데이터를 비교해 위/변조 되었는지 쉽게 알 수 있다.
+<br>
