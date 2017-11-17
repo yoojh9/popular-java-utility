@@ -10,6 +10,7 @@ public class IsExtension {
 		System.out.println(FilenameUtils.isExtension(path, "gif"));	// false
 		System.out.println(FilenameUtils.isExtension(path, "JPG"));	// false
 		System.out.println(FilenameUtils.isExtension(path, "jpg"));	// true
+		
 
 	}
 
